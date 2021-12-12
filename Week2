@@ -1,0 +1,3 @@
+应该wrap，并抛给上层。因为这个error是数据库本身的问题。
+
+return errors.Wrap(err, "Error: no rows")
